@@ -1,0 +1,145 @@
+.wishes{
+    min-height: 100vh;
+    padding-top: 100px;
+    background: url("/images/wishes.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.form{
+    width: 35%;
+    min-width: 30%;
+    margin: 0 auto;
+    background: #81d3f1;
+    padding: 30px;
+    border-radius: 10px;
+}
+.messages{
+    width: 60%;
+    min-width: 60%;
+    margin-right: 5%;
+    background: #81d3f1;
+    padding: 30px;
+    padding-right: 50px;
+    border-radius: 10px;
+    position: relative;
+    scroll-behavior: smooth;
+}
+.messages-container{
+    max-height: calc(100vh - 260px);
+    overflow: scroll;
+}
+form input, form textarea{
+    width: 100%;
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: none;
+    border:1px solid #50c7f3;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+form textarea{
+    min-height: 100px;
+}
+.message-list{
+    background-color: #ffffff;
+    border:1px solid #50c7f3;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.message-list h4{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.message-list p{
+    font-size: 13px;
+    font-weight: 500;
+    text-align: right;
+    padding-top: 5px;
+    text-transform: uppercase;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #666666;
+}
+.wishes button{
+    width: 80px;
+    height: 35px;
+    background-color: tomato;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: none;
+    border: none;
+    margin: 20px auto 0;
+    display: block;
+    cursor: pointer;
+}
+.wishes button:hover{
+    border: 1px solid tomato;
+    color: tomato;
+    background-color: #ffffff;
+}
+.scroll-top-icon, .scroll-bottom-icon{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border:1px solid #ffffff;
+    right: 10px;
+    transition: all 0.5s ease;
+    text-align: center;
+    cursor: pointer;
+    scroll-behavior: smooth;
+}
+.scroll-top-icon:hover, .scroll-bottom-icon:hover{
+    border: 1px solid #11b1ec;
+    background-color: #ffffff;
+
+}
+.scroll-top-icon:hover .arrow, .scroll-bottom-icon:hover .arrow{
+    border: solid #11b1ec;
+    border-width: 0 2px 2px 0;
+}
+.scroll-top-icon{
+    top: 30px;
+    transition: all 0.2s ease;
+    padding-top: 3px;
+}
+.scroll-bottom-icon{
+    bottom: 30px;
+    transition: all 0.2s ease;
+    padding-bottom: 3px;
+}
+.arrow {
+    border: solid #ffffff;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 4px;
+    vertical-align: middle;
+  }
+  
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+  
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  @media screen and (max-width: 767px){
+      .wishes .messages{
+          width: 90%;
+          margin: 0 auto;
+      }
+      .wishes .flex-between.flex-center{
+          display: block;
+      }
+      .wishes .form{
+          width: 90%;
+          margin-top:20px;
+      }
+  }

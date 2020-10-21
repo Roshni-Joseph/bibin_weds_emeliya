@@ -1,0 +1,55 @@
+.family{
+    min-height: 100vh;
+    padding-top: 100px;
+    background: url("/images/bg.jpg");
+    background-size: 100%;
+}
+.familycarousel img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align: center;
+}
+.familycarousel ul li{
+    text-align: center;
+}
+
+.tab-list-item img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 14px;
+    border: 3px solid #999999;
+    transition: all .8s ease-in-out;
+    -webkit-transition: all .8s ease-in-out;
+    -moz-transition: all .8s ease-in-out;
+    -o-transition: all .8s ease-in-out;
+}
+.tab-list{
+    text-align: center;
+}
+.tab-list-item{
+    display: inline-block;
+    
+}
+.tab-list-item.tab-list-active img{   
+    border: 4px solid #1f9db7;
+}
+.tab-content ul {
+    margin: 0 auto;
+    padding-top: 80px;
+}
+.tab-list-item img:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all .8s ease;
+    -moz-transition: all .8s ease;
+    -ms-transition: all .8s ease;
+    -o-transition: all .8s ease;
+    transition: all .8s ease;
+    cursor: pointer;
+}
+.tab-list-item img:hover{
+    border: 4px solid #1f9db7;
+}
