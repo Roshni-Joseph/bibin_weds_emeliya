@@ -9,8 +9,7 @@ class Messages extends Component{
     componentDidMount() {
 
         db.collection('contacts')
-        .get()
-        .then(snapshot => {
+        .onSnapshot(snapshot => {
             const contacts=[]
             snapshot.forEach(doc=>{
                 const data=doc.data()
@@ -21,7 +20,6 @@ class Messages extends Component{
            // console.log(snapshot)
 
         })
-        .catch(error=>console.log(error))
     }
 
     render(){
