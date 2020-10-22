@@ -1,0 +1,188 @@
+.invitation{
+    min-height: 100vh;
+    padding-top: 100px;
+    background: url("/images/bg.jpg");
+    background-size: 100%;
+}
+    
+.img-card {
+    width: 350px;
+    height: 250px;
+    position: relative;
+    text-align: center;
+}
+.img-card img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+
+}
+.img-card:after{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: -61px;
+    right: 0px;
+    margin: 0px auto;
+    background-color: #1f9db7;
+    height: 150px;
+    -webkit-border-radius: 150px 150px 0px 0px;
+    -moz-border-radius: 150px 150px 0px 0px;
+    border-radius: 150px 150px 0px 0px;
+    width: 285px;
+    z-index: 0;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.img-card::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: -61px;
+    margin: 0px auto;
+    background-color: #1f9db7;
+    height: 150px;
+    -webkit-border-radius: 0px 0px 150px 150px;
+    -moz-border-radius: 0px 0px 150px 150px;
+    border-radius: 0px 0px 150px 150px;
+    width: 285px;
+    z-index: 0;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.card{
+    text-align: center;
+    
+}
+.cardlist{
+    text-align: center;
+    background:
+    linear-gradient(to right, #1f9db7 4px, transparent 4px) 0 0,
+    linear-gradient(to left, #1f9db7 4px, transparent 4px) 100% 100%,
+    linear-gradient(to bottom, #1f9db7 4px, transparent 4px) 0 0,
+    linear-gradient(to top, #1f9db7 4px, transparent 4px) 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    border: 2px solid #1f9db7;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+    min-width: 250px;
+    max-width: 300px;
+}
+.cardlist div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    padding: 10px;
+}
+.cardlist h2{
+    color: #1f9db7;
+    padding: 5px;
+    font-size: 30px;
+}
+.cardlist h4{
+    color: #333333;
+    padding: 10px;
+}
+.cardlist h3{
+    color: #333333;
+    padding: 5px;
+    font-size: 20px;
+    color: #1f9db7;
+}
+.cardlist h5{
+    color: #656262;
+    padding: 5px;
+    line-height: 25px;
+    font-size: 16px;
+}
+.housename{
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ea9b5b;
+}
+.card-name{
+    padding-top: 30px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #f89e56;
+}
+.infobox{
+    width: 80%;
+    text-align: left;
+    border: 2px solid #9fddea;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 25px;
+}
+.infobox button{
+    border:1px solid #9fddea;
+    background-color: #9fddea;
+    color: #ffffff;
+    border-radius: 8px;
+    margin-left: 30px;
+    width: 150px;
+    cursor: pointer;
+    height: 40px;
+}
+.parents{
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 767px){
+    
+    .invitation .flex-between{
+        display: grid;
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+    .card-groom{
+        order:1;
+        width:100%;
+        display:inline-block;
+        padding: 20px;
+    }
+    .card-bride{
+        order:2;
+        width:100%;
+        display:inline-block;
+        padding: 20px;
+    }
+    .img-card{
+        margin: 0 auto;
+        width: 325px;
+    }
+    .img-card img {
+        margin: 0 auto;
+    }
+    .invitation .card{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .cardlist{
+        height: 300px;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 90%;
+        order:3;
+    }
+    .infobox button{
+        margin:  0 auto;
+        margin-top: 20px;
+    }
+}
