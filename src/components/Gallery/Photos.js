@@ -1,21 +1,21 @@
 export const photos = [
   {
-    src: process.env.PUBLIC_URL + "/images/gallary1.jpg",
+    src: process.env.PUBLIC_URL + "/images/gallery-1.jpg",
     width: 3,
     height: 2
   },
   {
-    src: process.env.PUBLIC_URL + "/images/gallary2.jpeg",
+    src: process.env.PUBLIC_URL + "/images/gallery-2.jpeg",
     width: 3,
     height: 4
   },
   {
-    src: process.env.PUBLIC_URL + "/images/gallary3.jpeg",
+    src: process.env.PUBLIC_URL + "/images/gallery-3.jpeg",
     width: 2,
     height: 2
   },
   {
-    src: process.env.PUBLIC_URL + "/images/gallary4.jpeg",
+    src: process.env.PUBLIC_URL + "/images/gallery-4.jpeg",
     width: 3,
     height: 4
   },
@@ -25,7 +25,7 @@ export const photos = [
     height: 1
   },
     {
-      src: process.env.PUBLIC_URL + "/images/Family.jpg",
+      src: process.env.PUBLIC_URL + "/images/family-1.jpg",
       width: 4,
       height: 3
     },

@@ -9,6 +9,7 @@ class Messages extends Component{
     componentDidMount() {
 
         db.collection('contacts')
+        .orderBy('time', 'desc')
         .onSnapshot(snapshot => {
             const contacts=[]
             snapshot.forEach(doc=>{
