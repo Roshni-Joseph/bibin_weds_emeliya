@@ -10,6 +10,7 @@ const Sendmessage = () =>{
         db.collection('contacts').add({
             name:name,
             message:message,
+            time: Date.now()
         })
         .then(()=>{
             alert("Message has been submited")
