@@ -20,7 +20,7 @@ export const MenuItems =[
         cName:'nav-links'
     },
     {
-        titel:'GALLARY',
+        titel:'GALLERY',
         url:'#gallary',
         cName:'nav-links'
     },
@@ -28,10 +28,5 @@ export const MenuItems =[
         titel:'WISHES',
         url:'#sendwishes',
         cName:'nav-links'
-    },
-    // {
-    //     titel:'SEND WISHES',
-    //     url:'#sendwishes',
-    //     cName:'nav-links'
-    // },
+    }
 ]
