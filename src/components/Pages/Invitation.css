@@ -129,15 +129,40 @@
     margin-right: auto;
     line-height: 25px;
 }
-.infobox button{
-    border:1px solid #9fddea;
-    background-color: #9fddea;
+.infobox a{
+    border: 1px solid #1f9db7;
+    background-color: #1f9db7;
     color: #ffffff;
     border-radius: 8px;
-    margin-left: 30px;
-    width: 150px;
+    margin-left: 20px;
+    width: 180px;
     cursor: pointer;
     height: 40px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 600;
+}
+.infobox a:hover{
+    border:1px solid #1f9db7;
+    background-color: #ffffff;
+    color: #1f9db7;
+
+}
+.infobox i{
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.infobox i sup{
+    color: red;
+}
+.infobox p{
+    border-right: 1px solid #9fddea;
+    padding-right: 10px;
 }
 .parents{
     padding-top: 10px;
