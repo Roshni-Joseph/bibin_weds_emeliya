@@ -131,4 +131,13 @@
     .ourstory ul li > div:first-child{
         text-align: left;
     }
+    .ourstory ul li img{
+        height: 200px;
+    }
+    .ourstory ul li>div{
+        height: 250px;
+    }
+    .timeline-icon{
+        display: none !important;
+    }
 }

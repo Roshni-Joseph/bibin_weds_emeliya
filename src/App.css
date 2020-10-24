@@ -68,6 +68,7 @@ body{
     margin-left: auto;
     margin-right: auto;
   }
+  
 }
 @media (min-width:1024px){
   .container{
@@ -82,5 +83,11 @@ body{
     margin-left: auto;
     margin-right: auto;
   }
+}
+@media (max-width:767px){
+  .head{
+    font-size: 35px;
+  }
+  
 }
 

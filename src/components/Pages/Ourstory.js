@@ -67,7 +67,7 @@ class Ourstory extends Component{
                     <li>
                         <div className="flex-center story-content">
                             <div className="w100p">
-                                <h3>Firs Meeting</h3>
+                                <h3>First Meeting</h3>
                                 <h5>27-06-2020</h5>
                                 <p>Destiny and desire  paved way to the much anticipated day..!  Their FIRST meeting</p>
                             </div>
@@ -93,7 +93,7 @@ class Ourstory extends Component{
                                     <img src="/images/engagement.svg" alt="The Wedding Day"/>
                                 </span>
                                 <h3>The Wedding Day</h3>
-                                <h5>24-10-2020</h5>
+                                <h5>26-10-2020</h5>
                                 <p>“Every heart sings a song, incomplete, until another heart whispers back..!" And here they are moving forward to complete the sonnet of life❣️</p>
                             </div>
                             
