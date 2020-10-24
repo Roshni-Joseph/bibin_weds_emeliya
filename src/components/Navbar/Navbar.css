@@ -67,6 +67,9 @@ ul.nav-menu li.active a{
     text-align: right;
     transition: all 0.5s ease;
 }
+.navbar-items.active{
+    background-color: #f57006;
+}
 @media screen and (max-width: 767px){
     .navbar-items{
         border: none;
@@ -132,7 +135,11 @@ ul.nav-menu li.active a{
         transition: all 0.5s ease;
         padding: 15px;
     }
-}
-.navbar-items.active{
-    background-color: #f57006;
+    ul.nav-menu li a{
+        width: 100%;
+        display: block;
+    }
+    ul.nav-menu li{
+        padding: 0 !important;
+    }
 }
