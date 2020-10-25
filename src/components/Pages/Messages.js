@@ -33,7 +33,7 @@ class Messages extends Component{
                             return(
                             <div className="message-list">
                                 <h4>{contacts.message}</h4>        
-                                <p>-{contacts.name}</p> 
+                                <i>-{contacts.name}</i> 
                             </div>
                             )
                         })

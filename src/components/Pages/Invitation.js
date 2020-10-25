@@ -41,9 +41,11 @@ class Invitation extends Component{
                     
                 </div>
                 <div className="infobox flex-between flex-center">
-                    <p>We will take care of all the preventing measures of Covid 19 as prescribed by the Govt. Wear mask and Join us. Others, please join us through online.</p>
-                    <button>Watch live</button>
-                    </div>
+                    <p>We will take care of all the preventing measures of Covid 19 as prescribed by the Govt. Wear mask and Join us. Others, please join us through online.
+                        <i><sup>*</sup> Marriage Live telecast will be available on 26th October @ 11:00 am</i>
+                    </p>
+                    <a href="https://www.facebook.com/bibin.joseph.338" target="_blank">Watch live</a>
+                 </div>
                 </div>
             </div>
         )

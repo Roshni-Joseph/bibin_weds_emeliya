@@ -4,9 +4,12 @@ import './Footer.css';
 class Footer extends Component{
     render(){
         return(
-            <div className="footer">
+            <div className="footer flex-between">
                 <p>
-                    With Love : Roshni | Disna | Sebin | 8778210350
+                    mob: 807553359 | 8431459228
+                </p>
+                <p>
+                    With Love : Roshni | Disna | Sebin 
                 </p>
             </div>
         )
